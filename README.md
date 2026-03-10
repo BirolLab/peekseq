@@ -1,8 +1,8 @@
-[![Release](https://img.shields.io/github/release/bcgsc/peekseq.svg)](https://github.com/bcgsc/peekseq/releases)
+[![Release](https://img.shields.io/github/release/birollab/peekseq.svg)](https://github.com/birollab/peekseq/releases)
 [![Conda](https://img.shields.io/conda/dn/bioconda/peekseq?label=Conda)](https://anaconda.org/bioconda/peekseq)
-[![Issues](https://img.shields.io/github/issues/bcgsc/peekseq.svg)](https://github.com/bcgsc/peekseq/issues)
+[![Issues](https://img.shields.io/github/issues/birollab/peekseq.svg)](https://github.com/birollab/peekseq/issues)
 
-![Logo](https://github.com/bcgsc/peekseq/blob/main/peekseq-logo.png)
+![Logo](https://github.com/birollab/peekseq/blob/main/peekseq-logo.png)
 
 # peekseq
 ## Protein Estimation systEm in [DNA/RNA] SEQuences, using K-mers
@@ -45,7 +45,7 @@ peekseq is developed in PERL and runs on any system where PERL is installed.
 
 Clone and enter the peekseq directory.
 <pre>
-git clone https://github.com/bcgsc/peekseq
+git clone https://github.com/birollab/peekseq
 cd peekseq
 </pre>
 
@@ -67,7 +67,7 @@ Refer to the README.md file on how to install and run peekseq.
 
 ## Citing peekseq <a name=cite></a>
 
-Thank you for your [![Stars](https://img.shields.io/github/stars/bcgsc/peekseq.svg)](https://github.com/bcgsc/peekseq/stargazers) and for using, developing and promoting this free software!
+Thank you for your [![Stars](https://img.shields.io/github/stars/birollab/peekseq.svg)](https://github.com/birollab/peekseq/stargazers) and for using, developing and promoting this free software!
 
 If you use peekseq in your research, please cite: 
 
@@ -216,7 +216,7 @@ TBD
 ## Generating plots <a name=bplot></a>
 
 ### Basking shark mitogenome
-![peekseqPlot](https://github.com/bcgsc/peekseq/blob/main/CEMAcpPlot.png)
+![peekseqPlot](https://github.com/birollab/peekseq/blob/main/CEMAcpPlot.png)
 This example predicted coding potential on C. maximus (basking shark) mitogenome with the following command:
 <pre>
 /usr/bin/time ./peekseq.pl -f CEMA.fa.gz -k 150 -s 200 -c 2 -v 1
@@ -241,7 +241,7 @@ p + theme(legend.position = "bottom") + guides(fill = guide_legend(title = "Fram
 </pre>
 
 ### SARS-CoV-2 genome
-![peekseqPlot](https://github.com/bcgsc/peekseq/blob/main/SARS2cpPlot.png)
+![peekseqPlot](https://github.com/birollab/peekseq/blob/main/SARS2cpPlot.png)
 This example predicted coding potential regions within the SARS-CoV-2 genome (k150) at the pandemic onset (Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1) with the following command:
 <pre>
 /usr/bin/time ./peekseq.pl -f SARS.fa.gz -k 150 -s 270 -c 11 -v 1
