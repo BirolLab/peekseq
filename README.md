@@ -1,4 +1,3 @@
-[![Release](https://img.shields.io/github/release/birollab/peekseq.svg)](https://github.com/birollab/peekseq/releases)
 [![Conda](https://img.shields.io/conda/dn/bioconda/peekseq?label=Conda)](https://anaconda.org/bioconda/peekseq)
 [![Issues](https://img.shields.io/github/issues/birollab/peekseq.svg)](https://github.com/birollab/peekseq/issues)
 
